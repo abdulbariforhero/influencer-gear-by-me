@@ -49,6 +49,9 @@ a {
     justify-content: space-evenly;
     align-items: center;
     padding-top: 80px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right 95px top 40px;
 }
 
 .banner-content {
@@ -77,7 +80,6 @@ a {
 
 .banner-img-container {
     max-width: 420px;
-
 }
 
 .banner-img-container img {
