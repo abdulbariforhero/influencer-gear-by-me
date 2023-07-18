@@ -1,0 +1,62 @@
+/* common shared styles */
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    gap: 40px;
+}
+
+/* nav related style */
+.nav-container {
+    height: 150px;
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container>h3 {
+    color: #3A3A3A;
+    font-size: 3.2rem;
+    padding-left: 30px;
+}
+.menu-container li{
+    color: #3A3A3A;
+}
+
+.menu-container {
+    display: flex;
+    gap: 30px;
+}
+
+.menu-in-nav {
+    display: none;
+}
+
+.menu-container li,
+.menu-container a {
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+/* banner related style */
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column-reverse;
+        padding: 10px 0;
+        height: auto;       
+    }
+
+    .menu-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
